@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 cd ~/Projects/shaders/ ;
-neovide --no-srgb --no-tabs --no-vsync & ;
+neovide --no-srgb --no-tabs --no-vsync &
 live-server
 
 
