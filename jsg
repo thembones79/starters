@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+tmux new -s "Games" -d
+tmux send-keys "vx -- -S ~/.vim/sessions/ts_game_4" C-m
+tmux send-keys "cd /home/michu/Projects/ts_game_4_sounds/" C-m
+tmux send-keys "pnpm run dev" C-m
+tmux send-keys "o" C-m
+tmux rename-window "🔮 Terminal"
+tmux new-window -c /home/michu/Projects/ts_game_4_sounds/
+tmux rename-window " Git"
+tmux send-keys "vvv" C-m

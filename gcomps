@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home/michu/Projects/grider-components;
+pm2 start "node_modules/vite/bin/vite.js" --name grider-components;
+vx
+$SHELL

@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+v --nosrgb --notabs --novsync $1

@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+tmux new -s "Tabliczka Mnożenia" -d
+tmux send-keys "cd /home/michu/Projects/tabliczka" C-m
+tmux send-keys "pnpm run dev" C-m
+tmux send-keys "o" C-m
+tmux rename-window "🔮 Terminal"
+tmux new-window -c /home/michu/Projects/tabliczka
+tmux rename-window " Git"
+tmux send-keys "lazygit" C-m
+tmux new-window -c /home/michu/Projects/tabliczka
+tmux rename-window "💪 Code"
+tmux send-keys "hx ." C-m
+tmux a -t "Tabliczka Mnożenia"

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+cd ~/Projects/shaders/ ;
+vx ;
+live-server
+
+
